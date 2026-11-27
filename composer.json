@@ -1,26 +1,20 @@
 {
 	"name": "flarum-lang/asturian",
+	"description": "Asturian Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Asturian language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/asturian",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"ast-locale",
-		"asturian-locale",
-		"asturian"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/asturian",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/asturian/issues",
+		"forum": "https://discuss.flarum.org/d/40170",
 		"source": "https://github.com/flarum-lang/asturian"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Asturian",
@@ -33,13 +27,7 @@
 		},
 		"flarum-locale": {
 			"code": "ast",
-			"title": "Asturian"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Asturianu"
 		}
 	}
 }
